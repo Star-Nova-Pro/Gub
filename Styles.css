@@ -68,3 +68,13 @@ body.dark-mode {
 header.dark-mode {
     background-color: #1a1a1a;
 }
+.slide-in {
+    transform: translateX(100%);
+    animation: slideIn 1s forwards;
+}
+
+@keyframes slideIn {
+    to {
+        transform: translateX(0);
+    }
+}
