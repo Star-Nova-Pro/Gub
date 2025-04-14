@@ -26,3 +26,35 @@ footer {
     bottom: 0;
     width: 100%;
 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #888;
+}
+/* Tema Gelap */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+header.dark-mode {
+    background-color: #1a1a1a;
+}
